@@ -20,7 +20,7 @@ void BFS(int v)
 	if(f<=r)
 	{
 		visited[Q[f]] = 1;
-		BFS(f++);
+		BFS(Q[f++]);
 	}
 }
 
@@ -54,8 +54,7 @@ int main()
 			printf("%d\t",i);
 		else
 		{
-			printf("\nNot Reachable..!");
-			break;
+			printf("\n %d is Not Reachable..!",i);
 		}
 			
 	}
