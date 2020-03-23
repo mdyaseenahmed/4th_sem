@@ -1,5 +1,5 @@
 /*
-    Implement Warshall’s algorithm using dynamic programming.
+    C Program To Implement Warshall’s Algorithm using Dynamic Programming.
 */
 
 #include<stdio.h>
@@ -71,10 +71,10 @@ Enter The Graph Data in the form of Adacency Matrix :
 0       0       0       1                                                                                                                                  
                                                                                                                                                            
 Following is The Transitive Closure Of The Given Graph :                                                                                                   
-1       1       1       1                                                                                                                                  
-0       1       1       1                                                                                                                                  
-0       0       1       1                                                                                                                                  
-0       0       0       1         
+    1       1       1       1                                                                                                                                  
+    0       1       1       1                                                                                                                                  
+    0       0       1       1                                                                                                                                  
+    0       0       0       1         
 
 --------------------------
 Output: [02]
@@ -88,7 +88,8 @@ Enter The Graph Data in the form of Adacency Matrix :
 1       0       1       0                                                                                                                                
                                                                                                                                                          
 Following is The Transitive Closure Of The Given Graph :                                                                                                 
-1       1       1       1                                                                                                                                
-1       1       1       1                                                                                                                                
-0       0       0       0                                                                                                                                
-1       1       1       1      
+    1       1       1       1                                                                                                                                
+    1       1       1       1                                                                                                                                
+    0       0       0       0                                                                                                                                
+    1       1       1       1      
+        
