@@ -1,5 +1,6 @@
 /******************************************************************************************************************************************************************************************************************
-  There are 2 sorted arrays A and B of size n each. Write an algorithm to find the median of the array obtained after merging the above 2 arrays(i.e. array of length 2n). The complexity should be O(log(n)).
+  Implement “Sum of Subsets” using Backtracking. “Sum of Subsets” problem: Find a subset of a given set  S = {s1,s2,……,sn} of n positive integers whose sum is equal to a given positive integer d.
+  For example, if S = {1,2,5,6,8} and  d = 9 there are two solutions {1,2,6} and {1,8}. A suitable message is to be displayed if the given problem instance doesn’t have a solution. 
 ******************************************************************************************************************************************************************************************************************/
 
 #include<stdio.h>
